@@ -78,7 +78,7 @@ class Client
 
         $data = array(
             'content' => $message,
-            'name' => $this->name,
+            'username' => $this->name,
             'avatar_url' => $this->avatar,
         );
 
